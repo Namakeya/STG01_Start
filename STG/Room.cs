@@ -48,6 +48,9 @@ namespace STG
                 }
             }
         }
-
+        public Block GetBlock(asd.Vector2DI pos)
+        {
+            return Blocks[pos.X, pos.Y];
+        }
     }
 }

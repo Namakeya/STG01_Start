@@ -15,6 +15,8 @@ namespace STG
         public asd.TextureObject2D TextureObject;
         //easy use. u can igonore this
         public asd.Texture2D Texture;
+        public bool Wall;
+        public bool Found;
         public int RenderX;
         public int RenderY;
         public int RenderRotate;
